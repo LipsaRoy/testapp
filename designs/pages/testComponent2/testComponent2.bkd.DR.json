@@ -137,7 +137,7 @@
                     },
                     {
                         "_key": "placeholder",
-                        "_value": "Enter name",
+                        "_value": "Enter first name",
                         "_type": "kv",
                         "_attrDef": "p",
                         "_useAsLabel": true
