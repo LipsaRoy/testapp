@@ -1,0 +1,9 @@
+{
+    "a1110970-6bdc-1a19-b752-792b936373fc": {
+        "dataModelId": "a1110970-6bdc-1a19-b752-792b936373fc",
+        "name": "employee",
+        "description": "Name",
+        "dataSource": "neutrinos-training-rt",
+        "fields": []
+    }
+}
