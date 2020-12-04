@@ -1,17 +1,19 @@
 <div fxLayout="column wrap" fxLayoutAlign="start stretch" [fxShow]="true" [fxHide]="false">
   <form>
-    <mat-form-field color="primary" [appearance]="&apos;outline&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
-      <input matInput placeholder="Enter first name" [required]="true">
+    <div fxLayout="column wrap" fxLayoutAlign="center center" [fxShow]="true" [fxHide]="false">
+      <mat-form-field color="primary" [appearance]="&apos;outline&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
+        <input matInput placeholder="Enter first name" [required]="true">
 
-    </mat-form-field>
-    <mat-form-field [appearance]="&apos;legacy&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
-      <input matInput placeholder="Enter email" [required]="false">
+      </mat-form-field>
+      <mat-form-field [appearance]="&apos;outline&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
+        <input matInput placeholder="Enter email" [required]="true">
 
-    </mat-form-field>
-    <mat-form-field [appearance]="&apos;legacy&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
-      <input matInput placeholder="Enter age" [required]="false">
+      </mat-form-field>
+      <mat-form-field [appearance]="&apos;outline&apos;" [floatLabel]="&apos;auto&apos;" [hideRequiredMarker]="false">
+        <input matInput placeholder="Enter age" [required]="false">
 
-    </mat-form-field><button mat-raised-button>Add</button>
+      </mat-form-field><button mat-raised-button>Add</button>
+    </div>
   </form>
   <div fxLayout="column" style="background-color:red;">
     <table mat-table [dataSource]="data" matSort class="table-width-fix">
